@@ -8,6 +8,7 @@
 body{
   margin: 60px 23px;
   background-color: #ECE9FD;
+  padding: 6.0rem 2.3rem 6.6rem;
 }
 
 :root{
@@ -93,38 +94,36 @@ ul li{
   min-width: 25.7rem;
 }
 
-ul li + li{
-  margin-top: 3.2rem;
-}
-
 ul li span {
   font-size: 7.2rem;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 750px) {
 
   main {
     display: flex;
     flex-direction: row;
-    gap: 11.6rem;
+    gap: 10rem;
 
-    max-width: 102.1rem;
-    
-    margin: 8.0rem 24.0rem 18.0rem 13.5rem;
+    max-width: 1120px;
+  }
 
+  ul li {
+    gap: 5.3rem;
+    max-width: 450px;
+    align-items: center;
   }
 
  .part1 {
-    width: 55.0rem;
+    max-width: 485px;
+  }
+
+  ul li + li {
+    margin-top: 3.8px;
   }
 
   .part1 h1 + p {
     margin-top: 4.1rem;
-    width: 48.0rem;
   }
-
- .part2{
-   max-width: 450px;
-}
  
 }
